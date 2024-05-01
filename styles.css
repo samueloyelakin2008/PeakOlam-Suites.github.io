@@ -4,8 +4,8 @@ body {
     padding: 0;
 }
 
-header {
-    background-color: #333;
+.as {
+    background-color:lightskyblue;
     color:green;
     text-align: center;
     padding: 10px 0;
@@ -32,8 +32,8 @@ section {
     margin: 20px 0;
 }
 
-footer {
-    background-color: #333;
+.ad {
+    background-color:lightskyblue;
     color: #fff;
     text-align: center;
     padding: 10px 0;
@@ -123,11 +123,16 @@ header {
     margin: 20px;
     padding: 10px;
     border: 1px solid #ccc;
+    display:block;
+
+
+
 }
 
 img {
     max-width: 100%;
     height: auto;
+    border-radius: 100px;
 }
 
 h2 {
@@ -195,6 +200,8 @@ OWNER
 }
 
 
+
+
 .services-container {
   display: flex;
   flex-wrap: wrap;
@@ -230,4 +237,33 @@ OWNER
   .service {
       width: calc(50% - 20px); /* 2 services per row on mobile */
   }
+}
+
+.ay button {
+ padding:7px;
+ color:ghostwhite;
+ background-color:sandybrown;
+ border-radius:32px;
+ cursor:pointer;
+ font-weight:bold ;
+width:none;
+}
+.ay:hover {
+    background-color:aquamarine;
+    border-radius: 32px;
+}
+.as{
+   border-radius:100px; 
+   background-color:red;
+   margin:32px ;
+   display:block;
+   padding:2px;
+}
+.as:hover{
+    background-color:blue;
+    border-radius:100px;
+} 
+.ag{
+   display:block;
+   font-weight: bolder; 
 }
