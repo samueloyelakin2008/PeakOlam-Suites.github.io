@@ -38,6 +38,7 @@ section {
     text-align: center;
     padding: 10px 0;
 }
+
 .a{
   display: flex;
   justify-content: center; /* Horizontally center */
@@ -53,7 +54,6 @@ button:hover{
     transform:translateX(-50%) translateY(-10px) ;
 
 }
-
 Amenities
 
 /* styles.css */
