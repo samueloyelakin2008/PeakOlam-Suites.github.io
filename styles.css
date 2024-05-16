@@ -44,11 +44,11 @@ section {
   justify-content: center; /* Horizontally center */
   grid-gap:15px;
 }
-button{
+.ap button{
 transform: translateX(-50%) ;
 transition: trasform 0.3 ease ;
 }
-button:hover{
+.ap button:hover{
     border-radius:50px;
     background-color:;
     transform:translateX(-50%) translateY(-10px) ;
